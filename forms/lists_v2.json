@@ -10815,7 +10815,7 @@
 "outlet_kitchen": false,
 "in_forms": true,
 "source": "audit-agent",
-"confidence": "high",
+"confidence": "medium",
 "note": "Product_Master lists it as a Ramadan sweet (spelled 'Jafrani Jalebi', KG, code 1021095); no jalebi exists in any canonic"
 },
 {
@@ -10871,24 +10871,6 @@
 "source": "audit-agent",
 "confidence": "high",
 "note": "Product_Master Ramadan item (KG, code 1021108) produced and sold; only Halim Masala and Halim Handi packaging exist in I"
-},
-{
-"name": "Chicken Shawarma (Small) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "1021136",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "medium",
-"note": "Product_Master lists it as a separate factory Ramadan product (Sausage / Fry & Grill, code 1021136, ~160 Tk) whereas Chi"
 },
 {
 "name": "Vegetable Manchurian (KG)",
@@ -11067,7 +11049,7 @@
 "outlet_kitchen": false,
 "in_forms": true,
 "source": "audit-agent",
-"confidence": "high",
+"confidence": "medium",
 "note": "Product_Master: Sausage, Fry & Grill, Ramadan, PCS, 265, SKU 1021111; ordered/received/sold in PCS; no tikka exists in a"
 },
 {
@@ -11105,24 +11087,6 @@
 "source": "audit-agent",
 "confidence": "high",
 "note": "Product_Master: Sausage, Fry & Grill, Ramadan, selling unit KG at 1000/kg, SKU 1021496, 137 kg sold; POS Ramadan SKU 102"
-},
-{
-"name": "Faluda Sherbat (1 L) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "medium",
-"note": "POS Ramadan-category falooda drink (SKU 1021125), the large bottle; absent from all lists (candidate Vanilla Cake (1 KG)"
 },
 {
 "name": "Tulumba (PCS)",
@@ -11215,24 +11179,6 @@
 "note": "POS Ramadan-category iftar fritter (SKU 1021138, batter-fried eggplant); absent from all lists (ITEM Eggplant is the raw"
 },
 {
-"name": "Labang (1 L) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "1021121",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "POS SKU 1021121 is identical to the Product_Master / Order line 'Labang (1 L)' (Pastry, Ramadan, PCS, 480) and the Openi"
-},
-{
 "name": "Apple Rings (PCS)",
 "unit_in_name": "PCS",
 "bangla": "",
@@ -11305,24 +11251,6 @@
 "note": "Product_Master lists Beef Pakora as a Ramadan Fry & Grill product (KG, barcode 1021444) sold at POS and wasted at outlet"
 },
 {
-"name": "Falooda (1 L) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "1021125",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "Falooda is absent from every canonical list; Product_Master lists 'Falooda (1 L)' as a Ramadan Pastry product (PCS, barc"
-},
-{
 "name": "Gulab Jamun (KG)",
 "unit_in_name": "KG",
 "bangla": "",
@@ -11339,24 +11267,6 @@
 "source": "audit-agent",
 "confidence": "high",
 "note": "Product_Master row: Sweets dept, class 'On Order', unit KG, barcode 879742; sold at POS as '205 Golab Jamun'. Absent fro"
-},
-{
-"name": "Falooda (500 ml) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "1021124",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "Absent from all lists; register barcode 1021124 equals Product_Master 'Falooda (500 ml)' (Ramadan, PCS). Fanta candidate"
 },
 {
 "name": "Beef Pastrami Sandwich (PCS)",
@@ -11845,42 +11755,6 @@
 "note": "Product_Master Sausage / Fry & Grill / Ramadan row with no unit, no price, no SKU and no transaction in any register (PO"
 },
 {
-"name": "Doi Bora (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "Sausage",
-"category": "Fry",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "1021140",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "Product_Master Sausage / Fry & Grill / Ramadan, PCS, 170, SKU 1021140; POS sells the same SKU as 'Dahi Bada' (377 rows, "
-},
-{
-"name": "Jafrani Jalebi (KG)",
-"unit_in_name": "KG",
-"bangla": "",
-"dept": "Sweets",
-"category": "Sweets",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "1021095",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "Product_Master Sweets / Ramadan, KG, 1020, SKU 1021095; the outlet orders, receives, wastes and sells the same SKU as 'Z"
-},
-{
 "name": "Cream Jam (KG)",
 "unit_in_name": "KG",
 "bangla": "",
@@ -11917,24 +11791,6 @@
 "note": "Product_Master Sweets / On Order, KG, 1760, own BOM cost; 2 factory production rows and a 'Malai Chop 1kg' KG line in th"
 },
 {
-"name": "Rasmalai (500 gm) (KG)",
-"unit_in_name": "KG",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "Product_Master Sweets / On Order, KG, 475; dispatch template line 'Rasmalai (500G)'; 500 gm size of the new Rasmalai pro"
-},
-{
 "name": "Shormalai (1 KG) (KG)",
 "unit_in_name": "KG",
 "bangla": "",
@@ -11951,24 +11807,6 @@
 "source": "audit-agent",
 "confidence": "medium",
 "note": "'Shormail' is a typo of Shormalai (shor malai, layered cream sweet): the sibling master row and dispatch line spell it '"
-},
-{
-"name": "Shormalai (500 gm) (KG)",
-"unit_in_name": "KG",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "Ramadan",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "",
-"outlet_kitchen": false,
-"in_forms": true,
-"source": "audit-agent",
-"confidence": "high",
-"note": "Product_Master Sweets / On Order, KG, 450; dispatch template line 'Shormalai (1/2)Kg'; 500 gm size of the new Shormalai "
 },
 {
 "name": "Fruit Custard (PCS)",
@@ -12546,7 +12384,6 @@
 "Chicken Samosa (PCS)",
 "Chicken Shashlik (PCS)",
 "Chicken Shawarma (PCS)",
-"Chicken Shawarma (Small) (PCS)",
 "Chicken Sheekh Kabab (PCS)",
 "Chicken Tikka (Quarter) (PCS)",
 "Chicken Wing (PCS)",
@@ -12575,12 +12412,8 @@
 "Dal Pakora (KG)",
 "Danish Puff (KG)",
 "Delhika Laddu (KG)",
-"Doi Bora (PCS)",
 "Energy Drink (PCS)",
 "Espresso (PCS)",
-"Falooda (1 L) (PCS)",
-"Falooda (500 ml) (PCS)",
-"Faluda Sherbat (1 L) (PCS)",
 "Faluda Sherbat (500 ml) (PCS)",
 "Fanta (250 ml) (CAN)",
 "Fish Burger (PCS)",
@@ -12608,14 +12441,12 @@
 "Iced Coffee (PCS)",
 "Iftar Box (1) (PCS)",
 "Iftar Box (2) (PCS)",
-"Jafrani Jalebi (KG)",
 "Juice Bottle (PCS)",
 "Juice Tetra Pack (PCS)",
 "Kacha Sandesh (KG)",
 "Khirsha Barfi (KG)",
 "Khirsha Jam (KG)",
 "Khirsha Kunafa (KG)",
-"Labang (1 L) (PCS)",
 "Labang (500 ml) (PCS)",
 "Langcha (KG)",
 "Lasagna (PCS)",
@@ -12649,7 +12480,6 @@
 "Raisin Bread (PKT)",
 "Rajbhog (KG)",
 "Rasmalai (1 KG) (KG)",
-"Rasmalai (500 gm) (KG)",
 "Red Dot Cookies (KG)",
 "Red Velvet Pastry (PCS)",
 "Regular Hafsi Halwa (KG)",
@@ -12663,7 +12493,6 @@
 "Shawarma Roti (Large) (PCS)",
 "Shawarma Roti (Small) (PCS)",
 "Shormalai (1 KG) (KG)",
-"Shormalai (500 gm) (KG)",
 "Smoked Chicken (Quarter) (PCS)",
 "Smoked Chicken (Whole) (PCS)",
 "Smoked Chicken Sandwich (PCS)",
@@ -12954,14 +12783,14 @@
 "name": "Boondi (Mihi Dana) (KG)",
 "bangla": "",
 "source": "audit-agent",
-"confidence": "high",
+"confidence": "medium",
 "note": "Product_Master Sweets / 'Work in Progress (Factory)' line (KG, no SKU, never sold) with 41 daily production rows, and 'B"
 },
 {
 "name": "Dahi Bada Dal Paste (KG)",
 "bangla": "",
 "source": "audit-agent",
-"confidence": "high",
+"confidence": "medium",
 "note": "Lentil batter made at the factory (dispatch 'DAHI BARA DAL' KG) and received by Unit 1 in KG under factory code FD07 (sa"
 },
 {
@@ -12993,32 +12822,11 @@
 "note": "Bulk labang made daily in the Pastry dept in L; never dispatched in bulk - only the 500 ml / 1 L bottles reach outlets. "
 },
 {
-"name": "Burinda (Mihi Dana) (KG)",
-"bangla": "",
-"source": "audit-agent",
-"confidence": "high",
-"note": "Boondi made in the Sweets dept and consumed internally (Ingredients(daily) usage, ~1 kg per issue) to make laddu; HIST W"
-},
-{
 "name": "Pastry Cream (KG)",
 "bangla": "",
 "source": "audit-agent",
 "confidence": "high",
 "note": "Factory Pastry work-in-progress (HIST WIP_Intermediate_Goods: produced 2.6, used as input 1.7, VERIFIED never delivered "
-},
-{
-"name": "Boondi (Burinda) (KG)",
-"bangla": "",
-"source": "audit-agent",
-"confidence": "medium",
-"note": "Boondi/mihidana made in Sweets; Product_Master classes 'Burinda/Mihi dana' as 'Work in Progress (Factory)', the WIP regi"
-},
-{
-"name": "Masoor Dal Bada Paste (KG)",
-"bangla": "",
-"source": "audit-agent",
-"confidence": "medium",
-"note": "Factory-ground red-lentil batter for bada (Ramadan dahi bada/pakora) received under order code FD08 beside 'Doi Bora Daa"
 },
 {
 "name": "Beef Pastrami Meat (KG)",
@@ -13066,14 +12874,12 @@
 "Black Forest Cake (KG)",
 "Black Forest Pastry (PCS)",
 "Black and White Pastry (PCS)",
-"Boondi (Burinda) (KG)",
 "Boondi (Mihi Dana) (KG)",
 "Bread Dough (KG)",
 "Breadcrumbs (KG)",
 "Broasted Chicken (PCS)",
 "Brownie Sandesh (KG)",
 "Burger Bun (PKT)",
-"Burinda (Mihi Dana) (KG)",
 "Butter Chicken (Cooked) (KG)",
 "Cake Batter (KG)",
 "Cashew Nut Cookies (KG)",
@@ -13111,7 +12917,6 @@
 "Chicken Shashlik (PCS)",
 "Chicken Shashlik Meat (KG)",
 "Chicken Shawarma (PCS)",
-"Chicken Shawarma (Small) (PCS)",
 "Chicken Shawarma Meat (KG)",
 "Chicken Sheekh Kabab (PCS)",
 "Chicken Tikka (Quarter) (PCS)",
@@ -13145,13 +12950,9 @@
 "Dal Pakora Paste (KG)",
 "Danish Puff (KG)",
 "Delhika Laddu (KG)",
-"Doi Bora (PCS)",
 "Energy Drink (PCS)",
 "Espresso (PCS)",
-"Falooda (1 L) (PCS)",
-"Falooda (500 ml) (PCS)",
 "Falooda (KG)",
-"Faluda Sherbat (1 L) (PCS)",
 "Faluda Sherbat (500 ml) (PCS)",
 "Fanta (250 ml) (CAN)",
 "Fat (Factory Product) (KG)",
@@ -13182,7 +12983,6 @@
 "Iced Coffee (PCS)",
 "Iftar Box (1) (PCS)",
 "Iftar Box (2) (PCS)",
-"Jafrani Jalebi (KG)",
 "Juice Bottle (PCS)",
 "Juice Tetra Pack (PCS)",
 "Kacha Sandesh (KG)",
@@ -13190,7 +12990,6 @@
 "Khirsha Jam (KG)",
 "Khirsha Kunafa (KG)",
 "Khoya (KG)",
-"Labang (1 L) (PCS)",
 "Labang (500 ml) (PCS)",
 "Labang (L)",
 "Langcha (KG)",
@@ -13204,7 +13003,6 @@
 "Marble Cake (500 gm) (KG)",
 "Marble Cake (KG)",
 "Marzipan (KG)",
-"Masoor Dal Bada Paste (KG)",
 "Maxwell Beef Sandwich (PCS)",
 "Mayonnaise (KG)",
 "Milk Bread (PKT)",
@@ -13234,7 +13032,6 @@
 "Raisin Bread (PKT)",
 "Rajbhog (KG)",
 "Rasmalai (1 KG) (KG)",
-"Rasmalai (500 gm) (KG)",
 "Red Dot Cookies (KG)",
 "Red Velvet Pastry (PCS)",
 "Regular Hafsi Halwa (KG)",
@@ -13254,7 +13051,6 @@
 "Shawarma Roti (Large) (PCS)",
 "Shawarma Roti (Small) (PCS)",
 "Shormalai (1 KG) (KG)",
-"Shormalai (500 gm) (KG)",
 "Singara Filling (Beef Liver) (KG)",
 "Smoked Chicken (KG)",
 "Smoked Chicken (Quarter) (PCS)",
@@ -13379,7 +13175,6 @@
 "Chicken Samosa (PCS)",
 "Chicken Shashlik (PCS)",
 "Chicken Shawarma (PCS)",
-"Chicken Shawarma (Small) (PCS)",
 "Chicken Sheekh Kabab (PCS)",
 "Chicken Tikka (Quarter) (PCS)",
 "Chicken Wing (PCS)",
@@ -13414,15 +13209,11 @@
 "Dal Pakora (KG)",
 "Danish Puff (KG)",
 "Delhika Laddu (KG)",
-"Doi Bora (PCS)",
 "Duster (PCS)",
 "Eggs (PCS)",
 "Electric Switch (PCS)",
 "Energy Drink (PCS)",
 "Espresso (PCS)",
-"Falooda (1 L) (PCS)",
-"Falooda (500 ml) (PCS)",
-"Faluda Sherbat (1 L) (PCS)",
 "Faluda Sherbat (500 ml) (PCS)",
 "Fanta (250 ml) (CAN)",
 "Fish Burger (PCS)",
@@ -13465,7 +13256,6 @@
 "Iced Coffee (PCS)",
 "Iftar Box (1) (PCS)",
 "Iftar Box (2) (PCS)",
-"Jafrani Jalebi (KG)",
 "Juice Bottle (PCS)",
 "Juice Tetra Pack (PCS)",
 "Kacha Sandesh (KG)",
@@ -13473,7 +13263,6 @@
 "Khirsha Jam (KG)",
 "Khirsha Kunafa (KG)",
 "LPG Gas Cylinder (12 KG) (PCS)",
-"Labang (1 L) (PCS)",
 "Labang (500 ml) (PCS)",
 "Langcha (KG)",
 "Lasagna (PCS)",
@@ -13524,7 +13313,6 @@
 "Raisin Bread (PKT)",
 "Rajbhog (KG)",
 "Rasmalai (1 KG) (KG)",
-"Rasmalai (500 gm) (KG)",
 "Red Dot Cookies (KG)",
 "Red Velvet Pastry (PCS)",
 "Regular Hafsi Halwa (KG)",
@@ -13542,7 +13330,6 @@
 "Shawarma Roti (Large) (PCS)",
 "Shawarma Roti (Small) (PCS)",
 "Shormalai (1 KG) (KG)",
-"Shormalai (500 gm) (KG)",
 "Small Bag (PCS)",
 "Smoked Chicken (Quarter) (PCS)",
 "Smoked Chicken (Whole) (PCS)",
@@ -22495,6 +22282,909 @@
 "method": "verified"
 },
 {
+"as_recorded": "Zafrani Jalebi",
+"canonical": "Zafrani Jalebi (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Zafran Jalebi",
+"canonical": "Zafrani Jalebi (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Jilapi",
+"canonical": "Zafrani Jalebi (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Jafrani Jalebi",
+"canonical": "Zafrani Jalebi (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Jafrani Jalebi (KG)",
+"canonical": "Zafrani Jalebi (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chewy Chicken",
+"canonical": "Chewy Chicken (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Dahi Bada",
+"canonical": "Dahi Bada (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Doi Bora",
+"canonical": "Dahi Bada (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Doi Bora (PCS)",
+"canonical": "Dahi Bada (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Mutton Halim",
+"canonical": "Mutton Halim (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Shawarma (Small)",
+"canonical": "Chicken Shawarma (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Shawarma (Small) (PCS)",
+"canonical": "Chicken Shawarma (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Vegetable Manchurian",
+"canonical": "Vegetable Manchurian (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Vegetable Monsurian",
+"canonical": "Vegetable Manchurian (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Meatball",
+"canonical": "Chicken Meatball (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Meat Ball",
+"canonical": "Chicken Meatball (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Beef Meatball",
+"canonical": "Beef Meatball (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Beef Meat Ball",
+"canonical": "Beef Meatball (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Malai Nuts",
+"canonical": "Malai Nuts (CUPS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Broasted Chicken",
+"canonical": "Broasted Chicken (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "41 Brosted Chicken",
+"canonical": "Broasted Chicken (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Pakora",
+"canonical": "Chicken Pakora (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Baklava",
+"canonical": "Baklava (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "910 Baklava PC",
+"canonical": "Baklava (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Baklava (PCS)",
+"canonical": "Baklava (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chana",
+"canonical": "Chana (Chickpea) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Zali Kabab",
+"canonical": "Chicken Jali Kabab (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Jali Kabab",
+"canonical": "Chicken Jali Kabab (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Tikka (Quarter)",
+"canonical": "Chicken Tikka (Quarter) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Tikka",
+"canonical": "Chicken Tikka (Quarter) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Faluda Sherbat 1/2 Litre",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Faluda Sherbat 1 Kg",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda (1L)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda (500ml)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda (500 ml)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda (1 L)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Faluda 1 litre",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Faluda Sherbat (1 L) (PCS)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda (1 L) (PCS)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda (500 ml) (PCS)",
+"canonical": "Faluda Sherbat (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Dal Pakora",
+"canonical": "Dal Pakora (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Daal Pakora",
+"canonical": "Dal Pakora (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Tulumba",
+"canonical": "Tulumba (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Turumba",
+"canonical": "Tulumba (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Alu Paratha",
+"canonical": "Alu Paratha (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Alu(potato) Parata",
+"canonical": "Alu Paratha (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Alu Porota",
+"canonical": "Alu Paratha (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "901 Coleslaw salad",
+"canonical": "Coleslaw Salad (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Laban 1/2 Litre",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Laban 1 litre",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Laban (1L)",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Laban (500ml)",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Labang (500 ml)",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Labang (1 L)",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Labang 1 litre",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Labang (1 L) (PCS)",
+"canonical": "Labang (500 ml) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Beguni",
+"canonical": "Beguni (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Apple Rings",
+"canonical": "Apple Rings (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Shik Kabab",
+"canonical": "Chicken Sheekh Kabab (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "900 Garlic Sauce",
+"canonical": "Garlic Sauce (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Beef Pakora",
+"canonical": "Beef Pakora (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Gulab Jamun",
+"canonical": "Gulab Jamun (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "205 Golab Jamun",
+"canonical": "Gulab Jamun (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "205 Golab Jamun pc",
+"canonical": "Gulab Jamun (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Gulab Jamun (PCS)",
+"canonical": "Gulab Jamun (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "434 Beef  Pastrami Sandwich",
+"canonical": "Beef Pastrami Sandwich (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "433 Beef Steak Sandwich",
+"canonical": "Beef Steak Sandwich (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Aflatun Halwa",
+"canonical": "Aflatun Halwa (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "211 Rosh Malai",
+"canonical": "Rasmalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Rasmalai (1Kg)",
+"canonical": "Rasmalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Rasmalai (500 gm)",
+"canonical": "Rasmalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Rasmalai (500 gm) (KG)",
+"canonical": "Rasmalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Fried Chicken (each)",
+"canonical": "Fried Chicken (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Toffee Chocolate",
+"canonical": "Toffee Chocolate (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Toffe Chocolate",
+"canonical": "Toffee Chocolate (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "7up",
+"canonical": "7up (250 ml) (CAN)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "7up (Can) 250ml",
+"canonical": "7up (250 ml) (CAN)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Kharsha Barphi",
+"canonical": "Khirsha Barfi (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Dew",
+"canonical": "Mountain Dew (250 ml) (CAN)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Mountain Dew (Can) 250ml",
+"canonical": "Mountain Dew (250 ml) (CAN)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Pepsi",
+"canonical": "Pepsi (250 ml) (CAN)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Pepsi (Can) 250ml",
+"canonical": "Pepsi (250 ml) (CAN)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Khirsha Kunafa",
+"canonical": "Khirsha Kunafa (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "512 fish Samosa",
+"canonical": "Fish Samosa (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "131  Apple Pie",
+"canonical": "Apple Pie (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Langcha",
+"canonical": "Langcha (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "05 Creamed Chicken Sandwich",
+"canonical": "Creamed Chicken Sandwich (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Iftar Box -1",
+"canonical": "Iftar Box (1) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "39 Sauslys Fried Chicken",
+"canonical": "Sauslys Fried Chicken (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Mixed Fruit Cake (Plum)",
+"canonical": "Mixed Fruit Cake (Plum) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Rabri Khaja",
+"canonical": "Rabri Khaja (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Iftar Box -2",
+"canonical": "Iftar Box (2) (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "29 Chicken Roll",
+"canonical": "Chicken Roll (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "97 Mixed Nut Cookies",
+"canonical": "Mixed Nut Cookies (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chocolate Titan Cookies",
+"canonical": "Chocolate Titan Cookies (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chocolate Wafer Cookies",
+"canonical": "Chocolate Wafer Cookies (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Marzipan",
+"canonical": "Marzipan (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Pudding Cake",
+"canonical": "Pudding Cake (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Chicken Cutlet",
+"canonical": "Chicken Cutlet (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Cream Jam",
+"canonical": "Cream Jam (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Malai Chop",
+"canonical": "Malai Chop (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Shormail (1Kg)",
+"canonical": "Shormalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Shormalai (500 gm)",
+"canonical": "Shormalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Shormalai (500 gm) (KG)",
+"canonical": "Shormalai (1 KG) (KG)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Fruit Custard",
+"canonical": "Fruit Custard (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Mocha Pastry",
+"canonical": "Mocha Pastry (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Vegetable Samosa",
+"canonical": "Vegetable Samosa (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Fish Cutlet",
+"canonical": "Fish Cutlet (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Fish Finger",
+"canonical": "Fish Finger (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Fish N Fries",
+"canonical": "Fish N Fries (PCS)",
+"list": "PRODUCT",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Lemon Cheese",
+"canonical": "Lemon Cheese (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Raw Sweet Cookies",
+"canonical": "Sweet Cookies (Raw) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Raw Choco. Rusk Cake Cookies",
+"canonical": "Chocolate Rusk Cake Cookies (Raw) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Raw Vanilla Rusk Cake Cookies",
+"canonical": "Vanilla Rusk Cake Cookies (Raw) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Raw Salted Cookies",
+"canonical": "Salted Cookies (Raw) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Burinda/Mihi dana",
+"canonical": "Boondi (Mihi Dana) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Burinda",
+"canonical": "Boondi (Mihi Dana) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Burinda/Mini Dana",
+"canonical": "Boondi (Mihi Dana) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Burinda (Mihi Dana) (KG)",
+"canonical": "Boondi (Mihi Dana) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Boondi (Burinda) (KG)",
+"canonical": "Boondi (Mihi Dana) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Doi Bora Daal Paste",
+"canonical": "Dahi Bada Dal Paste (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Musoor Daal Bada Paste",
+"canonical": "Dahi Bada Dal Paste (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Masoor Dal Bada Paste (KG)",
+"canonical": "Dahi Bada Dal Paste (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Dal Pakora Paste",
+"canonical": "Dal Pakora Paste (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Vaji (liver Singara)",
+"canonical": "Singara Filling (Beef Liver) (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Falooda",
+"canonical": "Falooda (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Labang",
+"canonical": "Labang (L)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Pastry Cream",
+"canonical": "Pastry Cream (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Beef Postarmi",
+"canonical": "Beef Pastrami Meat (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
 "as_recorded": "Tok Doi (Cup)",
 "canonical": "Sour Yogurt (Bowl) (KG)",
 "list": "PRODUCT",
@@ -22544,13 +23234,6 @@
 "method": "sku 1018357"
 },
 {
-"as_recorded": "Malai Nuts",
-"canonical": "Malai Nuts (CUPS)",
-"list": "PRODUCT",
-"source": "POS_SKU_MASTER",
-"method": "sku 1021131"
-},
-{
 "as_recorded": "18 ChickenCheese Burger",
 "canonical": "Chicken Cheese Burger (PCS)",
 "list": "PRODUCT",
@@ -22584,20 +23267,6 @@
 "list": "PRODUCT",
 "source": "POS_SKU_MASTER",
 "method": "sku 879418"
-},
-{
-"as_recorded": "41 Broasted Chicken",
-"canonical": "Broasted Chicken (PCS)",
-"list": "PRODUCT",
-"source": "POS_SKU_MASTER",
-"method": "sku 879424"
-},
-{
-"as_recorded": "Brosted Chicken",
-"canonical": "Broasted Chicken (PCS)",
-"list": "PRODUCT",
-"source": "POS_SKU_MASTER",
-"method": "sku 879424"
 },
 {
 "as_recorded": "Vanilla Cake",
@@ -22766,13 +23435,6 @@
 "list": "PRODUCT",
 "source": "POS_SKU_MASTER",
 "method": "sku 880031"
-},
-{
-"as_recorded": "910 Baklava",
-"canonical": "Baklava (KG)",
-"list": "PRODUCT",
-"source": "POS_SKU_MASTER",
-"method": "sku 880032"
 },
 {
 "as_recorded": "Khejur Gurer Sandesh (1Kg)",
@@ -23545,7 +24207,7 @@
 {
 "sku": "1021095",
 "pos_name": "",
-"canonical": "Jafrani Jalebi (KG)",
+"canonical": "Jafrani Jalebi",
 "dept": "Sweets",
 "unit": "KG",
 "price": "1020",
@@ -23599,7 +24261,7 @@
 {
 "sku": "1021121",
 "pos_name": "",
-"canonical": "Labang (1 L) (PCS)",
+"canonical": "Labang (1 L)",
 "dept": "Pastry",
 "unit": "PCS",
 "price": "480",
@@ -23608,7 +24270,7 @@
 {
 "sku": "1021124",
 "pos_name": "",
-"canonical": "Falooda (500 ml) (PCS)",
+"canonical": "Falooda (500 ml)",
 "dept": "Pastry",
 "unit": "PCS",
 "price": "280",
@@ -23617,7 +24279,7 @@
 {
 "sku": "1021125",
 "pos_name": "",
-"canonical": "Falooda (1 L) (PCS)",
+"canonical": "Falooda (1 L)",
 "dept": "Pastry",
 "unit": "PCS",
 "price": "540",
@@ -23653,7 +24315,7 @@
 {
 "sku": "1021136",
 "pos_name": "",
-"canonical": "Chicken Shawarma (Small) (PCS)",
+"canonical": "Chicken Shawarma (Small)",
 "dept": "Sausage",
 "unit": "",
 "price": "",
@@ -23662,7 +24324,7 @@
 {
 "sku": "1021140",
 "pos_name": "",
-"canonical": "Doi Bora (PCS)",
+"canonical": "Doi Bora",
 "dept": "Sausage",
 "unit": "PCS",
 "price": "170",
@@ -26070,11 +26732,11 @@
 },
 {
 "area": "PRODUCT",
-"name": "Zafrani Jalebi",
+"name": "Jafrani Jalebi, Jilapi, Zafran Jalebi, Zafrani Jalebi",
 "from": "(absent)",
 "to": "Zafrani Jalebi (KG)",
 "why": "Product_Master lists it as a Ramadan sweet (spelled 'Jafrani Jalebi', KG, code 1021095); no jalebi exists in any canonical list.",
-"confidence": "high",
+"confidence": "medium",
 "source": "agent+verifier"
 },
 {
@@ -26088,7 +26750,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Dahi Bada",
+"name": "Dahi Bada, Doi Bora",
 "from": "(absent)",
 "to": "Dahi Bada (PCS)",
 "why": "POS code 1021140 is Product_Master 'Doi Bora' (Ramadan, PCS, 170 Tk) - the same dish under its Bengali name; neither spelling exists in any ",
@@ -26106,16 +26768,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Chicken Shawarma (Small)",
-"from": "(absent)",
-"to": "Chicken Shawarma (Small) (PCS)",
-"why": "Product_Master lists it as a separate factory Ramadan product (Sausage / Fry & Grill, code 1021136, ~160 Tk) whereas Chicken Shawarma (PCS) ",
-"confidence": "medium",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Vegetable Manchurian",
+"name": "Vegetable Manchurian, Vegetable Monsurian",
 "from": "(absent)",
 "to": "Vegetable Manchurian (KG)",
 "why": "Product_Master Ramadan item (KG, code 1021440) sold at POS; absent from all lists; Vegetable Chutni is a different intermediate.",
@@ -26124,7 +26777,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Chicken Meatball",
+"name": "Chicken Meat Ball, Chicken Meatball",
 "from": "(absent)",
 "to": "Chicken Meatball (KG)",
 "why": "Product_Master Ramadan item (KG, code 1021133), produced as 'Chicken Meat Ball' in the Sausage dept; distinct from Chicken Meatloaf (KG); no",
@@ -26133,7 +26786,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Beef Meatball",
+"name": "Beef Meat Ball, Beef Meatball",
 "from": "(absent)",
 "to": "Beef Meatball (KG)",
 "why": "Product_Master Ramadan item (KG, code 1021134), produced as 'Beef Meat Ball'; distinct from Beef Meatloaf (KG); no meatball in any list.",
@@ -26151,7 +26804,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Broasted Chicken",
+"name": "41 Brosted Chicken, Broasted Chicken",
 "from": "(absent)",
 "to": "Broasted Chicken (PCS)",
 "why": "Product_Master entry (code 879424, 405 Tk, unit 'Basket') with Unit 1 kitchen production and POS category Chicken; no broasted/fried chicken",
@@ -26169,7 +26822,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Baklava",
+"name": "910 Baklava PC, Baklava",
 "from": "(absent)",
 "to": "Baklava (KG)",
 "why": "Product_Master: Sweets dept, status Ramadan, sold per KG (1600/kg, SKU 880032); in production, delivery, order/receive/opening/wastage and P",
@@ -26187,7 +26840,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Chicken Zali Kabab",
+"name": "Chicken Jali Kabab, Chicken Zali Kabab",
 "from": "(absent)",
 "to": "Chicken Jali Kabab (PCS)",
 "why": "POS SKU 1021142 is identical to the Order/Received SKU for 'Chicken Jali Kabab' (Product_Master: Sausage, Ramadan, PCS, 130); Zali/Jali is s",
@@ -26196,16 +26849,16 @@
 },
 {
 "area": "PRODUCT",
-"name": "Chicken Tikka (Quarter)",
+"name": "Chicken Tikka, Chicken Tikka (Quarter)",
 "from": "(absent)",
 "to": "Chicken Tikka (Quarter) (PCS)",
 "why": "Product_Master: Sausage, Fry & Grill, Ramadan, PCS, 265, SKU 1021111; ordered/received/sold in PCS; no tikka exists in any list and Smoked/G",
-"confidence": "high",
+"confidence": "medium",
 "source": "agent+verifier"
 },
 {
 "area": "PRODUCT",
-"name": "Faluda Sherbat 1/2 Litre",
+"name": "Falooda (1 L), Falooda (1L), Falooda (500 ml), Falooda (500ml), Faluda 1 litre, ",
 "from": "(absent)",
 "to": "Faluda Sherbat (500 ml) (PCS)",
 "why": "POS Ramadan-category falooda drink (SKU 1021124), half-litre bottle; falooda is absent from every canonical list and from Product_Master. Si",
@@ -26214,7 +26867,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Dal Pakora",
+"name": "Daal Pakora, Dal Pakora",
 "from": "(absent)",
 "to": "Dal Pakora (KG)",
 "why": "Product_Master: Sausage, Fry & Grill, Ramadan, selling unit KG at 1000/kg, SKU 1021496, 137 kg sold; POS Ramadan SKU 1021496 and Wastage 'Da",
@@ -26223,16 +26876,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Faluda Sherbat 1 Kg",
-"from": "(absent)",
-"to": "Faluda Sherbat (1 L) (PCS)",
-"why": "POS Ramadan-category falooda drink (SKU 1021125), the large bottle; absent from all lists (candidate Vanilla Cake (1 KG) is a size-only fals",
-"confidence": "medium",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Tulumba",
+"name": "Tulumba, Turumba",
 "from": "(absent)",
 "to": "Tulumba (PCS)",
 "why": "Product_Master: Pastry, Ramadan, selling unit PCS at 80, SKU 1021445, 74 sold; outlet Order/Received and POS use PCS; absent from every list",
@@ -26241,7 +26885,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Alu Paratha",
+"name": "Alu Paratha, Alu Porota, Alu(potato) Parata",
 "from": "(absent)",
 "to": "Alu Paratha (PCS)",
 "why": "Product_Master: Bread dept, Ramadan, PCS at 60, SKU 1021442, 203 sold; ordered/received/wasted in PCS (factory production log in KG); no par",
@@ -26259,7 +26903,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Laban 1/2 Litre",
+"name": "Laban (1L), Laban (500ml), Laban 1 litre, Laban 1/2 Litre, Labang (1 L), Labang ",
 "from": "(absent)",
 "to": "Labang (500 ml) (PCS)",
 "why": "POS SKU 1021120 is identical to the Product_Master / Order line 'Labang (500 ml)' (Pastry, Ramadan, 250) and the Opening/Received line 'Laba",
@@ -26272,15 +26916,6 @@
 "from": "(absent)",
 "to": "Beguni (PCS)",
 "why": "POS Ramadan-category iftar fritter (SKU 1021138, batter-fried eggplant); absent from all lists (ITEM Eggplant is the raw vegetable).",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Laban 1 litre",
-"from": "(absent)",
-"to": "Labang (1 L) (PCS)",
-"why": "POS SKU 1021121 is identical to the Product_Master / Order line 'Labang (1 L)' (Pastry, Ramadan, PCS, 480) and the Opening/Received line 'La",
 "confidence": "high",
 "source": "agent+verifier"
 },
@@ -26322,28 +26957,10 @@
 },
 {
 "area": "PRODUCT",
-"name": "Falooda (1L)",
-"from": "(absent)",
-"to": "Falooda (1 L) (PCS)",
-"why": "Falooda is absent from every canonical list; Product_Master lists 'Falooda (1 L)' as a Ramadan Pastry product (PCS, barcode 1021125) and thi",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Gulab Jamun",
+"name": "205 Golab Jamun, 205 Golab Jamun pc, Gulab Jamun",
 "from": "(absent)",
 "to": "Gulab Jamun (KG)",
 "why": "Product_Master row: Sweets dept, class 'On Order', unit KG, barcode 879742; sold at POS as '205 Golab Jamun'. Absent from the canonical PROD",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Falooda (500ml)",
-"from": "(absent)",
-"to": "Falooda (500 ml) (PCS)",
-"why": "Absent from all lists; register barcode 1021124 equals Product_Master 'Falooda (500 ml)' (Ramadan, PCS). Fanta candidate is a string coincid",
 "confidence": "high",
 "source": "agent+verifier"
 },
@@ -26376,7 +26993,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "211 Rosh Malai",
+"name": "211 Rosh Malai, Rasmalai (1Kg), Rasmalai (500 gm)",
 "from": "(absent)",
 "to": "Rasmalai (1 KG) (KG)",
 "why": "Rasmalai, a sweet absent from every canonical list; POS price 840 per unit equals HIST Product_Master 'Rasmalai (1Kg)' (Sweets, On Order, 84",
@@ -26394,7 +27011,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Toffee Chocolate",
+"name": "Toffe Chocolate, Toffee Chocolate",
 "from": "(absent)",
 "to": "Toffee Chocolate (KG)",
 "why": "Finished sweet produced in the Sweets dept (KG) and delivered/dispatched to Unit-1 and Britannia; no canonical product exists and the candid",
@@ -26403,7 +27020,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "7up",
+"name": "7up, 7up (Can) 250ml",
 "from": "(absent)",
 "to": "7up (250 ml) (CAN)",
 "why": "Bought-in soft drink resold at ECB Unit-2, absent from the canonical drinks (Coke/Sprite/Fanta only); the same Opening register also lists i",
@@ -26421,7 +27038,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Dew",
+"name": "Dew, Mountain Dew (Can) 250ml",
 "from": "(absent)",
 "to": "Mountain Dew (250 ml) (CAN)",
 "why": "Mountain Dew soft drink resold at ECB Unit-2; no canonical Dew exists and the same Opening register also lists it as 'Mountain Dew (Can) 250",
@@ -26430,7 +27047,7 @@
 },
 {
 "area": "PRODUCT",
-"name": "Pepsi",
+"name": "Pepsi, Pepsi (Can) 250ml",
 "from": "(absent)",
 "to": "Pepsi (250 ml) (CAN)",
 "why": "Pepsi soft drink resold at ECB Unit-2; absent from canonical drinks and listed in the same register as 'Pepsi (Can) 250ml'.",
@@ -26592,24 +27209,6 @@
 },
 {
 "area": "PRODUCT",
-"name": "Doi Bora",
-"from": "(absent)",
-"to": "Doi Bora (PCS)",
-"why": "Product_Master Sausage / Fry & Grill / Ramadan, PCS, 170, SKU 1021140; POS sells the same SKU as 'Dahi Bada' (377 rows, Ramadan category); D",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Jafrani Jalebi",
-"from": "(absent)",
-"to": "Jafrani Jalebi (KG)",
-"why": "Product_Master Sweets / Ramadan, KG, 1020, SKU 1021095; the outlet orders, receives, wastes and sells the same SKU as 'Zafrani Jalebi' (496 ",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
 "name": "Cream Jam",
 "from": "(absent)",
 "to": "Cream Jam (KG)",
@@ -26628,29 +27227,11 @@
 },
 {
 "area": "PRODUCT",
-"name": "Rasmalai (500 gm)",
-"from": "(absent)",
-"to": "Rasmalai (500 gm) (KG)",
-"why": "Product_Master Sweets / On Order, KG, 475; dispatch template line 'Rasmalai (500G)'; 500 gm size of the new Rasmalai product. Auto candidate",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Shormail (1Kg)",
+"name": "Shormail (1Kg), Shormalai (500 gm)",
 "from": "(absent)",
 "to": "Shormalai (1 KG) (KG)",
 "why": "'Shormail' is a typo of Shormalai (shor malai, layered cream sweet): the sibling master row and dispatch line spell it 'Shormalai (500 gm)' ",
 "confidence": "medium",
-"source": "agent+verifier"
-},
-{
-"area": "PRODUCT",
-"name": "Shormalai (500 gm)",
-"from": "(absent)",
-"to": "Shormalai (500 gm) (KG)",
-"why": "Product_Master Sweets / On Order, KG, 450; dispatch template line 'Shormalai (1/2)Kg'; 500 gm size of the new Shormalai product. Auto candid",
-"confidence": "high",
 "source": "agent+verifier"
 },
 {
@@ -26970,20 +27551,20 @@
 },
 {
 "area": "INTERMEDIATE",
-"name": "Burinda/Mihi dana",
+"name": "Burinda, Burinda/Mihi dana, Burinda/Mini Dana",
 "from": "(absent)",
 "to": "Boondi (Mihi Dana) (KG)",
 "why": "Product_Master Sweets / 'Work in Progress (Factory)' line (KG, no SKU, never sold) with 41 daily production rows, and 'Burinda' is also cons",
-"confidence": "high",
+"confidence": "medium",
 "source": "agent+verifier"
 },
 {
 "area": "INTERMEDIATE",
-"name": "Doi Bora Daal Paste",
+"name": "Doi Bora Daal Paste, Musoor Daal Bada Paste",
 "from": "(absent)",
 "to": "Dahi Bada Dal Paste (KG)",
 "why": "Lentil batter made at the factory (dispatch 'DAHI BARA DAL' KG) and received by Unit 1 in KG under factory code FD07 (same FD series as Dal ",
-"confidence": "high",
+"confidence": "medium",
 "source": "agent+verifier"
 },
 {
@@ -27024,38 +27605,11 @@
 },
 {
 "area": "INTERMEDIATE",
-"name": "Burinda",
-"from": "(absent)",
-"to": "Burinda (Mihi Dana) (KG)",
-"why": "Boondi made in the Sweets dept and consumed internally (Ingredients(daily) usage, ~1 kg per issue) to make laddu; HIST WIP register and Prod",
-"confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "INTERMEDIATE",
 "name": "Pastry Cream",
 "from": "(absent)",
 "to": "Pastry Cream (KG)",
 "why": "Factory Pastry work-in-progress (HIST WIP_Intermediate_Goods: produced 2.6, used as input 1.7, VERIFIED never delivered out); candidate Dano",
 "confidence": "high",
-"source": "agent+verifier"
-},
-{
-"area": "INTERMEDIATE",
-"name": "Burinda/Mini Dana",
-"from": "(absent)",
-"to": "Boondi (Burinda) (KG)",
-"why": "Boondi/mihidana made in Sweets; Product_Master classes 'Burinda/Mihi dana' as 'Work in Progress (Factory)', the WIP register records only in",
-"confidence": "medium",
-"source": "agent+verifier"
-},
-{
-"area": "INTERMEDIATE",
-"name": "Musoor Daal Bada Paste",
-"from": "(absent)",
-"to": "Masoor Dal Bada Paste (KG)",
-"why": "Factory-ground red-lentil batter for bada (Ramadan dahi bada/pakora) received under order code FD08 beside 'Doi Bora Daal Paste' FD07 (23 re",
-"confidence": "medium",
 "source": "agent+verifier"
 },
 {
