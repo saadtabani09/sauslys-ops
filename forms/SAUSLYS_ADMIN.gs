@@ -9,6 +9,7 @@ var TAB = { P1:'P1_PR', G2:'G2_GRN', I1:'I1_ISSUE', B2:'B2_BATCH', S1:'S1_COUNT_
 var BN = { item:'উপকরণ', product:'পণ্য', itemWord:'আইটেম', qty:'পরিমাণ', received:'পেয়েছেন', other:'অন্য আইটেম (তালিকায় নেই)' };
 var ITEM_WORD = { P1:BN.item, G2:BN.item, I1:BN.item, S1:BN.itemWord + ' বা ' + BN.product, B2:BN.product, S1P:BN.product, R1:BN.product, D1:BN.product, G1:BN.product + ' (কম/বেশি হলে)' };
 var QTY_WORD = { G1: BN.received + ' / Received qty' };
+var BUDGET = 2330; // total dropdown choices per form known to work (G2 v1 = 2,327); 8 x 406 = 3,248 failed
 
 function onOpen() {
   SpreadsheetApp.getUi().createMenu('SAUSLYS')
@@ -70,28 +71,43 @@ var RE = { line: /^(\d+)\.\s/, supplier: /Supplier/i, dept: /\/\s*Dept/i, outlet
 function syncForms() {
   var L = fetchLists_(); var out = [];
   Object.keys(FORMS).forEach(function (code) {
-    var form = FormApp.openById(FORMS[code]); var cfg = L.FORM[code]; var items = listFor_(L, code); var lines = cfg.lines; var seenLine = 0;
+    var form = FormApp.openById(FORMS[code]); var cfg = L.FORM[code]; var items = listFor_(L, code); var wantLines = cfg.lines;
+    var suppliers = code === 'G2' ? (L.SUPPLIER_ACTIVE || L.SUPPLIER_FORMS) : L.SUPPLIER_FORMS;
+    var lineItems = []; var otherTotal = 0;
     form.getItems().forEach(function (it) {
       if (it.getType() !== FormApp.ItemType.LIST) return;
       var t = it.getTitle(); var m = t.match(RE.line);
-      if (m) { seenLine = Math.max(seenLine, +m[1]); setChoices_(it, items, out, code + ' line ' + m[1]); return; }
-      if (RE.supplier.test(t)) return setChoices_(it, L.SUPPLIER_FORMS, out, code + ' supplier');
-      if (RE.dept.test(t)) return setChoices_(it, L.STATIC.DEPT, out, code + ' dept');
-      if (RE.where.test(t)) return setChoices_(it, L.STATIC.S1_WHERE, out, code + ' where');
-      if (RE.outlet.test(t)) return setChoices_(it, L.STATIC.OUTLET, out, code + ' outlet');
-      if (RE.inter.test(t)) return setChoices_(it, L.INTERMEDIATE.map(function (e) { return e.name; }), out, code + ' intermediate');
-      if (RE.notStaff.test(t)) return;
-      var f = null;
-      if (code === 'I1' && RE.issued.test(t)) f = cfg.issued_by; else if (code === 'I1' && RE.receivedBy.test(t)) f = cfg.received_by; else if (RE.who.test(t)) f = cfg.staff;
-      if (f) setChoices_(it, staffFor_(L, f), out, code + ' ' + f);
+      if (m) { lineItems.push({ n: +m[1], it: it }); return; }
+      var vals = null, label = '';
+      if (RE.supplier.test(t)) { vals = suppliers; label = 'supplier'; }
+      else if (RE.dept.test(t)) { vals = L.STATIC.DEPT; label = 'dept'; }
+      else if (RE.where.test(t)) { vals = L.STATIC.S1_WHERE; label = 'where'; }
+      else if (RE.outlet.test(t)) { vals = L.STATIC.OUTLET; label = 'outlet'; }
+      else if (RE.inter.test(t)) { vals = L.INTERMEDIATE.map(function (e) { return e.name; }); label = 'intermediate'; }
+      else if (!RE.notStaff.test(t)) {
+        var f = null;
+        if (code === 'I1' && RE.issued.test(t)) f = cfg.issued_by; else if (code === 'I1' && RE.receivedBy.test(t)) f = cfg.received_by; else if (RE.who.test(t)) f = cfg.staff;
+        if (f) { vals = staffFor_(L, f); label = f; }
+      }
+      if (vals) { setChoices_(it, vals, out, code + ' ' + label); otherTotal += vals.length; }
+      else otherTotal += it.asListItem().getChoices().length;
     });
-    for (var n = seenLine + 1; n <= lines; n++) {
+    lineItems.sort(function (a, b) { return a.n - b.n; });
+    var budget = BUDGET - otherTotal; var used = 0; var seenLine = 0;
+    lineItems.forEach(function (li) {
+      seenLine = Math.max(seenLine, li.n); var cur = li.it.asListItem().getChoices().length;
+      if (used + items.length <= budget) { setChoices_(li.it, items, out, code + ' line ' + li.n); used += items.length; }
+      else { used += cur; out.push(code + ' line ' + li.n + ': kept old choices (' + cur + ') - cap'); }
+    });
+    for (var n = seenLine + 1; n <= wantLines; n++) {
+      if (used + items.length > budget) { out.push(code + ': stopped adding at line ' + (n - 1) + ' (cap ' + BUDGET + ')'); break; }
       form.addListItem().setTitle(n + '. ' + ITEM_WORD[code] + ' / ' + BN.itemWord + ' ' + n).setChoiceValues(items).setRequired(false);
       form.addTextItem().setTitle(n + '. ' + (QTY_WORD[code] || (BN.qty + ' / Qty')) + ' ' + n).setRequired(false);
-      out.push(code + ': added line ' + n);
+      used += items.length; out.push(code + ': added line ' + n);
     }
     var hasOther = form.getItems().some(function (it) { return RE.other.test(it.getTitle()); });
     if (L.FORM.other_item_text && !hasOther) { form.addParagraphTextItem().setTitle(BN.other + ' / Other item not in list: name + qty'); out.push(code + ': added Other-item text'); }
+    out.push(code + ': total choices ' + (otherTotal + used) + ' / ' + BUDGET);
   });
   var msg = out.join('\n') || 'nothing to change'; Logger.log(msg); return msg;
 }
