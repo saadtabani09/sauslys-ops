@@ -12115,24 +12115,6 @@
 "note": "finished item proposed Sep-7; not seen in 2026 registers | not in dropdowns until first order"
 },
 {
-"name": "Dough_Patties (SFG) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
-"status": "On Order",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "",
-"outlet_kitchen": false,
-"in_forms": false,
-"source": "MASTER_ITEMS_74_PROPOSED",
-"confidence": "low",
-"note": "finished item proposed Sep-7; not seen in 2026 registers | not in dropdowns until first order"
-},
-{
 "name": "Hafsi Halwa (PCS)",
 "unit_in_name": "PCS",
 "bangla": "হাফসি হালুয়া",
@@ -12156,24 +12138,6 @@
 "bangla": "কাশ্মীরি চিকেন চাপ",
 "dept": "Sausage",
 "category": "Fry",
-"status": "On Order",
-"sell_unit": "",
-"pcs_per_pack": "",
-"pack_g": "",
-"pos_label": "",
-"sku": "",
-"outlet_kitchen": false,
-"in_forms": false,
-"source": "MASTER_ITEMS_74_PROPOSED",
-"confidence": "low",
-"note": "finished item proposed Sep-7; not seen in 2026 registers | not in dropdowns until first order"
-},
-{
-"name": "Lemon Cheese (SFG) (PCS)",
-"unit_in_name": "PCS",
-"bangla": "",
-"dept": "",
-"category": "",
 "status": "On Order",
 "sell_unit": "",
 "pcs_per_pack": "",
@@ -19023,20 +18987,6 @@
 "method": "match"
 },
 {
-"as_recorded": "Raw Vanilla Rusk Cake Cookies",
-"canonical": "Vanilla Rusk Cake Cookies (KG)",
-"list": "PRODUCT",
-"source": "Hist Product_Master",
-"method": "fuzzy"
-},
-{
-"as_recorded": "Raw Salted Cookies",
-"canonical": "Salted Cookies (KG)",
-"list": "PRODUCT",
-"source": "Hist Product_Master",
-"method": "fuzzy"
-},
-{
 "as_recorded": "Breadcrumbs",
 "canonical": "Breadcrumbs (KG)",
 "list": "INTER",
@@ -23496,6 +23446,48 @@
 "method": "new-name spelling"
 },
 {
+"as_recorded": "Dough_Patties (SFG)",
+"canonical": "Patties Dap (WIP) (PCS)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Dough Patties (SFG)",
+"canonical": "Patties Dap (WIP) (PCS)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Lemon Cheese (SFG)",
+"canonical": "Lemon Cheese (KG)",
+"list": "INTERMEDIATE",
+"source": "audit-agent",
+"method": "new-name spelling"
+},
+{
+"as_recorded": "Raw_Salted Cookies (SFG)",
+"canonical": "Salted Cookies (Raw) (KG)",
+"list": "INTERMEDIATE",
+"source": "Sep 1-5 daily files",
+"method": "SFG tag spelling"
+},
+{
+"as_recorded": "Raw_Sweet Cookies (SFG)",
+"canonical": "Sweet Cookies (Raw) (KG)",
+"list": "INTERMEDIATE",
+"source": "Sep 1-5 daily files",
+"method": "SFG tag spelling"
+},
+{
+"as_recorded": "Burinda/Mihi dana (SFG)",
+"canonical": "Boondi (Mihi Dana) (KG)",
+"list": "INTERMEDIATE",
+"source": "Sep 1-5 daily files",
+"method": "SFG tag spelling"
+},
+{
 "as_recorded": "Tok Doi (Cup)",
 "canonical": "Sour Yogurt (Bowl) (KG)",
 "list": "PRODUCT",
@@ -27718,15 +27710,6 @@
 },
 {
 "area": "PRODUCT",
-"name": "Dough_Patties (SFG)",
-"from": "(absent)",
-"to": "Dough_Patties (SFG) (PCS)",
-"why": "proposed finished item (Sep-7 pass), no 2026 activity: status On Order",
-"confidence": "low",
-"source": "MASTER_ITEMS_74_PROPOSED"
-},
-{
-"area": "PRODUCT",
 "name": "Hafsi Halwa",
 "from": "(absent)",
 "to": "Hafsi Halwa (PCS)",
@@ -27739,15 +27722,6 @@
 "name": "Kashmiri Chicken Chap",
 "from": "(absent)",
 "to": "Kashmiri Chicken Chap (PCS)",
-"why": "proposed finished item (Sep-7 pass), no 2026 activity: status On Order",
-"confidence": "low",
-"source": "MASTER_ITEMS_74_PROPOSED"
-},
-{
-"area": "PRODUCT",
-"name": "Lemon Cheese (SFG)",
-"from": "(absent)",
-"to": "Lemon Cheese (SFG) (PCS)",
 "why": "proposed finished item (Sep-7 pass), no 2026 activity: status On Order",
 "confidence": "low",
 "source": "MASTER_ITEMS_74_PROPOSED"
@@ -27931,6 +27905,24 @@
 "why": "Misspelling of Beef Pastrami; the Received register carries 'Beef Pastrami Meat' (6 rows, KG, UOM register 'Store receiving') as the meat be",
 "confidence": "medium",
 "source": "agent+verifier"
+},
+{
+"area": "INTERMEDIATE",
+"name": "Dough_Patties (SFG)",
+"from": "proposed as PRODUCT (items74)",
+"to": "Patties Dap (WIP) (PCS)",
+"why": "same thing as the existing WIP intermediate (raw patties pieces); Sep 1-5 production tab records it daily as Dough_Patties (SFG)",
+"confidence": "high",
+"source": "Sep 1-5 daily files"
+},
+{
+"area": "INTERMEDIATE",
+"name": "Lemon Cheese (SFG)",
+"from": "proposed as PRODUCT (items74)",
+"to": "Lemon Cheese (KG)",
+"why": "already an intermediate under this spelling",
+"confidence": "high",
+"source": "Sep 1-5 daily files"
 },
 {
 "area": "SUPPLIER",
@@ -28993,6 +28985,33 @@
 "why": "renaming 40 products would break history; the register columns carry the counted unit",
 "confidence": "high",
 "source": "UNIT_REGISTER_UNIFIED + AUG31"
+},
+{
+"area": "ALIAS",
+"name": "Raw Vanilla Rusk Cake Cookies",
+"from": "Vanilla Rusk Cake Cookies (KG) (PRODUCT)",
+"to": "Vanilla Rusk Cake Cookies (Raw) (KG) (INTERMEDIATE)",
+"why": "a Raw/SFG name is the semi-finished stage (B2 intermediate), not the finished product; Sep 1-5 production tab records it as (SFG)",
+"confidence": "high",
+"source": "Sep 1-5 daily files"
+},
+{
+"area": "ALIAS",
+"name": "Raw Salted Cookies",
+"from": "Salted Cookies (KG) (PRODUCT)",
+"to": "Salted Cookies (Raw) (KG) (INTERMEDIATE)",
+"why": "a Raw/SFG name is the semi-finished stage (B2 intermediate), not the finished product; Sep 1-5 production tab records it as (SFG)",
+"confidence": "high",
+"source": "Sep 1-5 daily files"
+},
+{
+"area": "ALIAS",
+"name": "(SFG) tag + underscores",
+"from": "no match",
+"to": "stripped in matching; 3 Sep-daily spellings added",
+"why": "Anik's Sep daily files write intermediates as Raw_X (SFG); LISTS name stays clean, alias absorbs the tag",
+"confidence": "high",
+"source": "Sep 1-5 daily files"
 },
 {
 "area": "FORM",
